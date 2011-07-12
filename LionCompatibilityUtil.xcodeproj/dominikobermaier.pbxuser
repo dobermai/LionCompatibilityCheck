@@ -51,8 +51,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 332181752;
-			PBXWorkspaceStateSaveDate = 332181752;
+			PBXPerProjectTemplateStateSaveDate = 332182124;
+			PBXWorkspaceStateSaveDate = 332182124;
 		};
 		perUserProjectItems = {
 			9E22508613C7B30D007938AE = 9E22508613C7B30D007938AE /* PBXTextBookmark */;
@@ -66,7 +66,7 @@
 			9E66CFCC13CA0FA80063DAA4 = 9E66CFCC13CA0FA80063DAA4 /* PBXTextBookmark */;
 			9EB0F5E113CCB0540092C527 = 9EB0F5E113CCB0540092C527 /* PBXTextBookmark */;
 			9EB0F60113CCB05D0092C527 = 9EB0F60113CCB05D0092C527 /* PBXTextBookmark */;
-			9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */ = 9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */;
+			9EB0F60E13CCB0FD0092C527 = 9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9E334ECE13C7A6E3008A44CB /* Source Control */;
 		userBuildSettings = {
@@ -350,11 +350,6 @@
 		name = ASIProgressDelegate.h;
 		path = "/Users/dominikobermaier/Downloads/pokeb-asi-http-request-v1.8.1-10-g57f7ff2/pokeb-asi-http-request-57f7ff2/Classes/ASIProgressDelegate.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {481, 624}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 275}";
-		};
 	};
 	9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

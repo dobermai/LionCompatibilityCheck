@@ -12,6 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9E0A900C13CCB27900B5ED5D /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0A900B13CCB27900B5ED5D /* libz.1.2.3.dylib */; };
 		9E22507313C7B0E3007938AE /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E22507213C7B0E3007938AE /* App.m */; };
 		9E22511613C7C0B1007938AE /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E22511513C7C0B1007938AE /* AppController.m */; };
 		9E334EE113C7A703008A44CB /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E334EDE13C7A703008A44CB /* HTMLNode.m */; };
@@ -43,6 +44,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* LionCompatibilityUtil-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LionCompatibilityUtil-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* LionCompatibilityUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionCompatibilityUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A900B13CCB27900B5ED5D /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		9E22507113C7B0E3007938AE /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
 		9E22507213C7B0E3007938AE /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 		9E22511413C7C0B1007938AE /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				9E334EE613C7A717008A44CB /* libxml2.dylib in Frameworks */,
 				9EB0F61D13CCB1330092C527 /* SystemConfiguration.framework in Frameworks */,
 				9EB0F61F13CCB13D0092C527 /* CoreServices.framework in Frameworks */,
+				9E0A900C13CCB27900B5ED5D /* libz.1.2.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +152,7 @@
 				9E334EE513C7A717008A44CB /* libxml2.dylib */,
 				9EB0F61C13CCB1330092C527 /* SystemConfiguration.framework */,
 				9EB0F61E13CCB13D0092C527 /* CoreServices.framework */,
+				9E0A900B13CCB27900B5ED5D /* libz.1.2.3.dylib */,
 			);
 			name = LionCompatibilityUtil;
 			sourceTree = "<group>";
