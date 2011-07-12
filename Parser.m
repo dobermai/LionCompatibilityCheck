@@ -18,6 +18,7 @@
 - (void)check {
     if (![self networkQueue]) {
         [self setNetworkQueue:[[[ASINetworkQueue alloc] init] autorelease]];
+        [networkQueue setMaxConcurrentOperationCount:5];
     }
     [[self networkQueue] setDelegate:self];
     [[self networkQueue] setRequestDidFinishSelector:@selector(requestFinished:)];
@@ -94,38 +95,39 @@
 
 - (void)parseNextPages {
     NSString *urlTemplate = @"http://roaringapps.com/apps:table/p/";
-	
+
     for (int i = 2; i <= maxPage; i++) {
         NSString *completeUrl = [NSString stringWithFormat:@"%@%d", urlTemplate, i];
         NSURL *url = [[NSURL alloc] initWithString:completeUrl];
-		
+
         ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
         [[self networkQueue] addOperation:request];
     }
-	
+
     [[self networkQueue] go];
 }
 
 
 - (void)requestFinished:(ASIHTTPRequest *)request {
-	
+
     NSString *response = [request responseString];
-	
+
     NSError *parserError = nil;
     HTMLParser *parser = [[HTMLParser alloc] initWithString:response error:&parserError];
     HTMLNode *bodyNode = [parser body];
-	
-	if (parserError) {
+
+    if (parserError) {
         NSLog(@"Error: %@", parserError);
         return;
     }
-	
+
     [self parsePage:bodyNode withArray:apps];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"UpdateProgressStatus" object:nil];
 }
 
 - (void)requestFailed:(ASIHTTPRequest *)request {
     NSError *error = [request error];
-	
+
     NSLog(@"%@", error);
 }
 
@@ -162,6 +164,8 @@
                 if ((maxPageNr != 0) && (maxPageNr != 1)) {
                     maxPage = maxPageNr;
                     NSLog(@"Found max Pages: %d", maxPage);
+
+                    [[NSNotificationCenter defaultCenter] postNotificationName:@"ProgressSize" object:[NSNumber numberWithInteger:maxPage]];
                 }
             }
 
@@ -180,6 +184,7 @@
     if (self) {
 
         maxPage = 0;
+        [ASIHTTPRequest setDefaultTimeOutSeconds:30];
     }
 
     return self;

@@ -7,6 +7,7 @@
 	
 	IBOutlet NSTableView *tableView;
 	IBOutlet NSArrayController *controller;
+	IBOutlet NSProgressIndicator *progressBar;
     NSArray *installedApplications;
 
 }

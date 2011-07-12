@@ -15,13 +15,19 @@
     [self setInstalledApplications:[scanner allApplications]];
 
     Parser *parser = [[Parser alloc] init];
+    [progressBar setHidden:NO];
+    [progressBar setIndeterminate:YES];
+    [progressBar displayIfNeeded];
+    [progressBar startAnimation:self];
+    [progressBar setToolTip:@"Preparing Download of Compatibility Data"];
+
+
     [parser check];
 
 }
 
 - (void)receiveAppArray:(NSNotification *)notification {
     if ([[notification name] isEqualToString:@"RequestsFinishedNotification"]) {
-        NSLog(@"Successfully received the test notification!");
         NSArray *allApplications = [notification object];
 
         for (NSString *installedApp in installedApplications) {
@@ -35,6 +41,26 @@
             }
             //Add all apps which are not in the list
         }
+        [progressBar stopAnimation:self];
+        [progressBar setHidden:YES];
+    }
+}
+
+- (void)updateProgress {
+    [progressBar setDoubleValue:[progressBar doubleValue] + 1];
+    double d = (100 / [progressBar maxValue] * [progressBar doubleValue]);
+    [progressBar setToolTip:[NSString stringWithFormat:@"Downloaded %.f%%", d]];
+}
+
+- (void)setProgressSize:(NSNotification *)notification {
+    if ([[notification name] isEqualToString:@"ProgressSize"]) {
+
+        NSNumber *progressSize = [notification object];
+        if ([progressBar isIndeterminate]) {
+            [progressBar setIndeterminate:NO];
+        }
+        [progressBar setDoubleValue:0];
+        [progressBar setMaxValue:[progressSize doubleValue]];
     }
 }
 
@@ -45,10 +71,25 @@
                                                  selector:@selector(receiveAppArray:)
                                                      name:@"RequestsFinishedNotification"
                                                    object:nil];
+        //Let's notify when there was a progress update
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(updateProgress)
+                                                     name:@"UpdateProgressStatus"
+                                                   object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(setProgressSize:)
+                                                     name:@"ProgressSize"
+                                                   object:nil];
     }
 
     return self;
 }
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    [progressBar setHidden:YES];
+}
+
 
 - (void)dealloc {
     [installedApplications release];
