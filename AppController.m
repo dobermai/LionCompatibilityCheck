@@ -26,13 +26,14 @@
 
         for (NSString *installedApp in installedApplications) {
 
-//Uaaah, this is very dirty. We need a better way, iterating through this HUGE list is not that sexy...
+            //Uaaah, this is very dirty. We need a better way, iterating through this HUGE list is not that sexy...
+            //Perhaps we should use a dictionary?
             for (App *app in allApplications) {
                 if ([installedApp isEqualToString:[app appName]]) {
                     [controller addObject:app];
                 }
             }
-            //Add al apps which are not in the list
+            //Add all apps which are not in the list
         }
     }
 }
@@ -47,7 +48,6 @@
     }
 
     return self;
-//To change the template use AppCode | Preferences | File Templates.
 }
 
 - (void)dealloc {

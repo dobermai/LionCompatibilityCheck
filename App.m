@@ -14,8 +14,7 @@
 -(id)init
 {
 	[super init];
-	status = @"Unknown";
-	
+
 	return self;
 	
 }
