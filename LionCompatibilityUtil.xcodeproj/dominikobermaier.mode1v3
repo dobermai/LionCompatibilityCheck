@@ -285,118 +285,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>9EB0F5E013CCB0500092C527</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>4</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>5</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>6</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>7</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>8</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>9</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>10</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>11</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>12</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>13</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>14</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>15</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>16</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>17</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>18</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>19</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>20</integer>
-									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -449,7 +343,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>9EB0F60113CCB05D0092C527</string>
+										<string>9EB0F60E13CCB0FD0092C527</string>
 										<key>history</key>
 										<array>
 											<string>9E334F0913C7AB43008A44CB</string>
@@ -461,7 +355,7 @@
 											<string>9E378CDA13C8C70C007965EC</string>
 											<string>9E66CFCC13CA0FA80063DAA4</string>
 											<string>9E378D5913C8D096007965EC</string>
-											<string>9EB0F5E113CCB0540092C527</string>
+											<string>9EB0F60113CCB05D0092C527</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -473,14 +367,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {513, 188}}</string>
+								<string>{{0, 0}, {513, 176}}</string>
 								<key>RubberWindowFrame</key>
 								<string>351 383 788 504 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>188pt</string>
+							<string>176pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -493,14 +387,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 193}, {513, 270}}</string>
+								<string>{{0, 181}, {513, 282}}</string>
 								<key>RubberWindowFrame</key>
 								<string>351 383 788 504 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>270pt</string>
+							<string>282pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -519,9 +413,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9EB0F5E513CCB0540092C527</string>
+				<string>9EB0F60F13CCB0FD0092C527</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>9EB0F5E613CCB0540092C527</string>
+				<string>9EB0F61013CCB0FD0092C527</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -642,7 +536,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>332181597.77138901</real>
+	<real>332181757.398646</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -659,6 +553,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>9E334ED313C7A6E5008A44CB</string>
 		<string>/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil.xcodeproj</string>
 	</array>
@@ -740,7 +635,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>9E334ED313C7A6E5008A44CB</string>
-				<string>9EB0F5E713CCB0540092C527</string>
+				<string>9EB0F61113CCB0FD0092C527</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -862,13 +757,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>9E66CFC113CA0EF10063DAA4</string>
+				<string>9EB0F61213CCB0FD0092C527</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>9E66CFC213CA0EF10063DAA4</string>
-				<string>9E66CFC313CA0EF10063DAA4</string>
-				<string>9E66CFC413CA0EF10063DAA4</string>
-				<string>9E66CFC513CA0EF10063DAA4</string>
-				<string>9E66CFC613CA0EF10063DAA4</string>
+				<string>9EB0F61313CCB0FD0092C527</string>
+				<string>9EB0F61413CCB0FD0092C527</string>
+				<string>9EB0F61513CCB0FD0092C527</string>
+				<string>9EB0F61613CCB0FD0092C527</string>
+				<string>9EB0F61713CCB0FD0092C527</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

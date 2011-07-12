@@ -26,6 +26,8 @@
 		9EB0F5FE13CCB05A0092C527 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0F5F213CCB05A0092C527 /* ASIHTTPRequest.m */; };
 		9EB0F5FF13CCB05A0092C527 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0F5F613CCB05A0092C527 /* ASIInputStream.m */; };
 		9EB0F60013CCB05A0092C527 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0F5F813CCB05A0092C527 /* ASINetworkQueue.m */; };
+		9EB0F61D13CCB1330092C527 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB0F61C13CCB1330092C527 /* SystemConfiguration.framework */; };
+		9EB0F61F13CCB13D0092C527 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB0F61E13CCB13D0092C527 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		9EB0F5F713CCB05A0092C527 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
 		9EB0F5F813CCB05A0092C527 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
 		9EB0F5F913CCB05A0092C527 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		9EB0F61C13CCB1330092C527 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9EB0F61E13CCB13D0092C527 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				9E334EE613C7A717008A44CB /* libxml2.dylib in Frameworks */,
+				9EB0F61D13CCB1330092C527 /* SystemConfiguration.framework in Frameworks */,
+				9EB0F61F13CCB13D0092C527 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +147,8 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				9E334EE513C7A717008A44CB /* libxml2.dylib */,
+				9EB0F61C13CCB1330092C527 /* SystemConfiguration.framework */,
+				9EB0F61E13CCB13D0092C527 /* CoreServices.framework */,
 			);
 			name = LionCompatibilityUtil;
 			sourceTree = "<group>";

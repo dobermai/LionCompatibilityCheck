@@ -51,21 +51,22 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 332181573;
-			PBXWorkspaceStateSaveDate = 332181573;
+			PBXPerProjectTemplateStateSaveDate = 332181752;
+			PBXWorkspaceStateSaveDate = 332181752;
 		};
 		perUserProjectItems = {
-			9E22508613C7B30D007938AE /* PBXTextBookmark */ = 9E22508613C7B30D007938AE /* PBXTextBookmark */;
-			9E334F0913C7AB43008A44CB /* PBXTextBookmark */ = 9E334F0913C7AB43008A44CB /* PBXTextBookmark */;
-			9E334F3113C7AD44008A44CB /* PBXTextBookmark */ = 9E334F3113C7AD44008A44CB /* PBXTextBookmark */;
-			9E378CDA13C8C70C007965EC /* PBXTextBookmark */ = 9E378CDA13C8C70C007965EC /* PBXTextBookmark */;
-			9E378D5913C8D096007965EC /* PBXTextBookmark */ = 9E378D5913C8D096007965EC /* PBXTextBookmark */;
-			9E4EBD2A13C7D503007D0945 /* PBXTextBookmark */ = 9E4EBD2A13C7D503007D0945 /* PBXTextBookmark */;
-			9E4EBD4A13C7DD8E007D0945 /* PBXTextBookmark */ = 9E4EBD4A13C7DD8E007D0945 /* PBXTextBookmark */;
-			9E4EBD5513C7DDAD007D0945 /* PBXTextBookmark */ = 9E4EBD5513C7DDAD007D0945 /* PBXTextBookmark */;
-			9E66CFCC13CA0FA80063DAA4 /* PBXTextBookmark */ = 9E66CFCC13CA0FA80063DAA4 /* PBXTextBookmark */;
-			9EB0F5E113CCB0540092C527 /* PBXTextBookmark */ = 9EB0F5E113CCB0540092C527 /* PBXTextBookmark */;
-			9EB0F60113CCB05D0092C527 /* PBXTextBookmark */ = 9EB0F60113CCB05D0092C527 /* PBXTextBookmark */;
+			9E22508613C7B30D007938AE = 9E22508613C7B30D007938AE /* PBXTextBookmark */;
+			9E334F0913C7AB43008A44CB = 9E334F0913C7AB43008A44CB /* PBXTextBookmark */;
+			9E334F3113C7AD44008A44CB = 9E334F3113C7AD44008A44CB /* PBXTextBookmark */;
+			9E378CDA13C8C70C007965EC = 9E378CDA13C8C70C007965EC /* PBXTextBookmark */;
+			9E378D5913C8D096007965EC = 9E378D5913C8D096007965EC /* PBXTextBookmark */;
+			9E4EBD2A13C7D503007D0945 = 9E4EBD2A13C7D503007D0945 /* PBXTextBookmark */;
+			9E4EBD4A13C7DD8E007D0945 = 9E4EBD4A13C7DD8E007D0945 /* PBXTextBookmark */;
+			9E4EBD5513C7DDAD007D0945 = 9E4EBD5513C7DDAD007D0945 /* PBXTextBookmark */;
+			9E66CFCC13CA0FA80063DAA4 = 9E66CFCC13CA0FA80063DAA4 /* PBXTextBookmark */;
+			9EB0F5E113CCB0540092C527 = 9EB0F5E113CCB0540092C527 /* PBXTextBookmark */;
+			9EB0F60113CCB05D0092C527 = 9EB0F60113CCB05D0092C527 /* PBXTextBookmark */;
+			9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */ = 9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9E334ECE13C7A6E3008A44CB /* Source Control */;
 		userBuildSettings = {
@@ -323,7 +324,7 @@
 		isa = PBXTextBookmark;
 		fRef = 9EB0F5E213CCB0540092C527 /* ASIProgressDelegate.h */;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 		rType = 0;
 	};
 	9EB0F5E213CCB0540092C527 /* ASIProgressDelegate.h */ = {
@@ -345,9 +346,25 @@
 	};
 	9EB0F60213CCB05D0092C527 /* ASIProgressDelegate.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = ASIProgressDelegate.h;
 		path = "/Users/dominikobermaier/Downloads/pokeb-asi-http-request-v1.8.1-10-g57f7ff2/pokeb-asi-http-request-57f7ff2/Classes/ASIProgressDelegate.h";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {481, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 275}";
+		};
+	};
+	9EB0F60E13CCB0FD0092C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9EB0F60213CCB05D0092C527 /* ASIProgressDelegate.h */;
+		name = "ASIProgressDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 0;
 	};
 	9EC6E06713C7C44600EEFEB9 /* AppController.m:36 */ = {
 		isa = PBXFileBreakpoint;
