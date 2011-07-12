@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="537"/>
+			<integer value="372"/>
 			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1333,7 +1333,7 @@
 							<object class="NSButtonCell" key="NSCell" id="102065951">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Button</string>
+								<string key="NSContents">Scan </string>
 								<object class="NSFont" key="NSSupport" id="755515556">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
