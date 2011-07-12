@@ -44,6 +44,16 @@ c000000004CC401D100000000000013E6
 t1287913937
 s5094
 
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC3F0250000000000001A78
+t1287909413
+s6776
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLparser.h
 c000000004CC3E9410000000000002401
 t1287907649
@@ -53,6 +63,16 @@ N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLtree.h
 c000000004CC3E9410000000000000E65
 t1287907649
 s3685
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004CC3E09300000000000102A5
+t1287905427
+s66213
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib
 c000000004D5A279500000000000474A8
@@ -93,28 +113,160 @@ t1310157478
 s2441
 i"HTMLParser.h"
 
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASICacheDelegate.h
+c000000004E12DFD6000000000000141F
+t1309859798
+s5151
+i<Foundation/Foundation.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.h
+c000000004E12DFD6000000000000072C
+t1309859798
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.m
+c000000004E12DFD60000000000001A4A
+t1309859798
+s6730
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.h
+c000000004E12DFD600000000000006A3
+t1309859798
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.m
+c000000004E12DFD60000000000001906
+t1309859798
+s6406
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.h
+c000000004E12DFD600000000000006CD
+t1309859798
+s1741
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.m
+c000000004E12DFD60000000000004314
+t1309859798
+s17172
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.h
+c000000004E12DFD60000000000000A85
+t1309859798
+s2693
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.m
+c000000004E12DFD60000000000002BDD
+t1309859798
+s11229
+i"ASIFormDataRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.h
+c000000004E12DFD6000000000000AEB6
+t1309859798
+s44726
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.m
+c000000004E12DFD6000000000002C678
+t1309859798
+s181880
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequestConfig.h
+c000000004E12DFD60000000000000478
+t1309859798
+s1144
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequestDelegate.h
+c000000004E12DFD6000000000000063E
+t1309859798
+s1598
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.h
+c000000004E12DFD600000000000003C9
+t1309859798
+s969
+i<Foundation/Foundation.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.m
+c000000004E12DFD60000000000000C14
+t1309859798
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.h
+c000000004E12DFD6000000000000120D
+t1309859798
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.m
+c000000004E12DFD60000000000002C8D
+t1309859798
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIProgressDelegate.h
+c000000004E12DFD60000000000000678
+t1309859798
+s1656
+
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.h
-c000000004E19EEFD00000000000001DE
-t1310322429
-s478
+c000000004E1B8A52000000000000015A
+t1310427730
+s346
 i<Foundation/Foundation.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.m
-c000000004E19EEFD00000000000001CE
-t1310322429
-s462
+c000000004E1B8A520000000000000149
+t1310427730
+s329
 i"App.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/AppController.h
-c000000004E1799450000000000000149
-t1310169413
-s329
+c000000004E1B8A5200000000000000BB
+t1310427730
+s187
 i<Cocoa/Cocoa.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/AppController.m
-c000000004E1B88B700000000000003E0
-t1310427319
-s992
+c000000004E1B8A520000000000000352
+t1310427730
+s850
 i"AppController.h"
 i"App.h"
 i"FileScanner.h"
@@ -126,20 +278,20 @@ t1310158680
 s45
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib
-c000000004E17993D0000000000033256
-t1310169405
-s209494
+c000000004E1B918A0000000000033255
+t1310429578
+s209493
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/FileScanner.h
-c000000004E177613000000000000011E
-t1310160403
-s286
+c000000004E1B8A520000000000000091
+t1310427730
+s145
 i<Foundation/Foundation.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/FileScanner.m
-c000000004E179CD20000000000000465
-t1310170322
-s1125
+c000000004E1B8A5200000000000003D8
+t1310427730
+s984
 i"FileScanner.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h
@@ -172,15 +324,15 @@ s2441
 i"HTMLParser.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.h
-c000000004E176F58000000000000015A
-t1310158680
-s346
+c000000004E1B8A5200000000000000B8
+t1310427730
+s184
 i<Cocoa/Cocoa.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m
-c000000004E176F58000000000000019D
-t1310158680
-s413
+c000000004E1B8A5200000000000000FC
+t1310427730
+s252
 i"LionCompatibilityUtilAppDelegate.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil_Prefix.pch
@@ -190,15 +342,15 @@ s173
 i<Cocoa/Cocoa.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/Parser.h
-c000000004E17A5FD0000000000000101
-t1310172669
-s257
+c000000004E1B8A520000000000000079
+t1310427730
+s121
 i<Cocoa/Cocoa.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/Parser.m
-c000000004E1B8653000000000000138D
-t1310426707
-s5005
+c000000004E1B8A520000000000001305
+t1310427730
+s4869
 i"Parser.h"
 i"HTMLNode.h"
 i"HTMLParser.h"
@@ -268,6 +420,34 @@ s20332
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/main.o
 t1310317548
 s4960
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataCompressor.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataDecompressor.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDownloadCache.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIFormDataRequest.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIHTTPRequest.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIInputStream.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASINetworkQueue.o
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o
 t1310402428
@@ -453,6 +633,27 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m332010348#332010348#0(0"0(0#0#93"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m4405291696#2305"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/i386 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -include /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-drtidpxsuhagqkccacguixduousd/LionCompatibilityUtil_Prefix.pch -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/main.o0#
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIInputStream.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s332095228.175314
