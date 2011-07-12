@@ -1,16 +1,6 @@
 TLionCompatibilityUtil
 v7
-r0
-t331851528.205063
-cCheck dependencies
-cProcessInfoPlistFile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist LionCompatibilityUtil-Info.plist
-cCopyStringsFile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch.gch LionCompatibilityUtil_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r1
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004DA35F4600000000000000EE
@@ -22,44 +12,224 @@ c0000000040C4AA6800000000000001E5
 t1086630504
 s485
 
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004D5A2790000000000001A854
+t1297754000
+s108628
+
 N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
 c000000004CC401D100000000000013E6
 t1287913937
 s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC3F0250000000000001A78
+t1287909413
+s6776
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D5A27910000000000031758
+t1297754001
+s202584
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004CC3E9410000000000002401
+t1287907649
+s9217
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLtree.h
+c000000004CC3E9410000000000000E65
+t1287907649
+s3685
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004CC3E09300000000000102A5
+t1287905427
+s66213
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib
+c000000004D5A279500000000000474A8
+t1297754005
+s292008
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.1.2.3.dylib
+c000000004D5A27960000000000005D2C
+t1297754006
+s23852
 
 N/System/Library/Frameworks/Cocoa.framework/Cocoa
 c000000004D81D79B000000000000A5E0
 t1300354971
 s42464
 
-N/Users/dominikobermaier/Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLNode.h
-c000000004E176AA60000000000000A8B
-t1310157478
-s2699
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASICacheDelegate.h
+c000000004E12DFD6000000000000141F
+t1309859798
+s5151
 i<Foundation/Foundation.h>
-i<libxml/HTMLparser.h>
-i"HTMLParser.h"
 
-N/Users/dominikobermaier/Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLParser.h
-c000000004E176AA6000000000000026B
-t1310157478
-s619
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.h
+c000000004E12DFD6000000000000072C
+t1309859798
+s1836
 i<Foundation/Foundation.h>
-i<libxml/HTMLparser.h>
-i"HTMLNode.h"
+i<zlib.h>
 
-N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/../../../../Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLNode.m
-c000000004E176AA600000000000026BE
-t1310157478
-s9918
-i"HTMLNode.h"
-i<libxml/HTMLtree.h>
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.m
+c000000004E12DFD60000000000001A4A
+t1309859798
+s6730
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
 
-N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/../../../../Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLParser.m
-c000000004E176AA60000000000000989
-t1310157478
-s2441
-i"HTMLParser.h"
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.h
+c000000004E12DFD600000000000006A3
+t1309859798
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.m
+c000000004E12DFD60000000000001906
+t1309859798
+s6406
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.h
+c000000004E12DFD600000000000006CD
+t1309859798
+s1741
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.m
+c000000004E12DFD60000000000004314
+t1309859798
+s17172
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.h
+c000000004E12DFD60000000000000A85
+t1309859798
+s2693
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.m
+c000000004E12DFD60000000000002BDD
+t1309859798
+s11229
+i"ASIFormDataRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.h
+c000000004E12DFD6000000000000AEB6
+t1309859798
+s44726
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.m
+c000000004E12DFD6000000000002C678
+t1309859798
+s181880
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequestConfig.h
+c000000004E12DFD60000000000000478
+t1309859798
+s1144
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequestDelegate.h
+c000000004E12DFD6000000000000063E
+t1309859798
+s1598
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.h
+c000000004E12DFD600000000000003C9
+t1309859798
+s969
+i<Foundation/Foundation.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.m
+c000000004E12DFD60000000000000C14
+t1309859798
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.h
+c000000004E12DFD6000000000000120D
+t1309859798
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.m
+c000000004E12DFD60000000000002C8D
+t1309859798
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIProgressDelegate.h
+c000000004E12DFD60000000000000678
+t1309859798
+s1656
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.h
+c000000004E1B8A52000000000000015A
+t1310427730
+s346
+i<Foundation/Foundation.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.m
+c000000004E1CB8FB0000000000000132
+t1310505211
+s306
+i"App.h"
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/AppController.h
+c000000004E1CBEBB0000000000000149
+t1310506683
+s329
+i<Cocoa/Cocoa.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/AppController.m
+c000000004E1CCEB80000000000000CE8
+t1310510776
+s3304
+i"AppController.h"
+i"App.h"
+i"FileScanner.h"
+i"Parser.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/InfoPlist.strings
 c000000004E176F58000000000000002D
@@ -67,9 +237,21 @@ t1310158680
 s45
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib
-c000000004E176F58000000000002BC05
-t1310158680
-s179205
+c000000004E1CBF0400000000000339E1
+t1310506756
+s211425
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/FileScanner.h
+c000000004E1B8A520000000000000091
+t1310427730
+s145
+i<Foundation/Foundation.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/FileScanner.m
+c000000004E1CBA9500000000000003DC
+t1310505621
+s988
+i"FileScanner.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h
 c000000004E176AA60000000000000A8B
@@ -101,15 +283,15 @@ s2441
 i"HTMLParser.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.h
-c000000004E176F58000000000000015A
-t1310158680
-s346
+c000000004E1B8A5200000000000000B8
+t1310427730
+s184
 i<Cocoa/Cocoa.h>
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m
-c000000004E176F58000000000000019D
-t1310158680
-s413
+c000000004E1B8A5200000000000000FC
+t1310427730
+s252
 i"LionCompatibilityUtilAppDelegate.h"
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil_Prefix.pch
@@ -118,29 +300,86 @@ t1310158680
 s173
 i<Cocoa/Cocoa.h>
 
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/Parser.h
+c000000004E1CB52C000000000000015A
+t1310504236
+s346
+i<Cocoa/Cocoa.h>
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/Parser.m
+c000000004E1CD05700000000000018B0
+t1310511191
+s6320
+i"Parser.h"
+i"HTMLNode.h"
+i"HTMLParser.h"
+i"App.h"
+i"ASIHTTPRequest.h"
+i"ASINetworkQueue.h"
+
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app
 t2
 s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist
-t1310158726
-s1326
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil
 t2
 s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/PkgInfo
-t1310158726
-s8
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1310158726
-s92
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/MainMenu.nib
-t1310158726
-s34591
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataCompressor.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataDecompressor.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDownloadCache.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIFormDataRequest.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIHTTPRequest.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIInputStream.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASINetworkQueue.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/FileScanner.o
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o
 t2
@@ -151,17 +390,21 @@ t2
 s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil.LinkFileList
-c000000004E176F860000000000000306
-t1310158726
-s774
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o
-t1310158728
-s21552
+t2
+s0
+
+N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o
-t1310158728
-s5096
+t2
+s0
 
 N/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m
 c000000004E176F580000000000000100
@@ -169,261 +412,74 @@ t1310158680
 s256
 i<Cocoa/Cocoa.h>
 
-N/var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch.gch
-t1310158728
-s54306576
+N/var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-gyrgtytonstzleedxfyfknqiiajm/LionCompatibilityUtil_Prefix.pch.gch
+t2
+s0
 
 NLionCompatibilityUtil-Info.plist
 c000000004E176F5800000000000003EA
 t1310158680
 s1002
 
-CCheck dependencies
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
-lSLF07#2@18"Check dependencies331851525#331851526#0(0"0(0#1#0"8622668096#0"0#
 
-CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/../../../../Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIInputStream.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/App.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/FileScanner.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/FileScanner.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s331851528.099201
-e331851528.194950
-r0
-xCompileC
-xbuild/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:10:30: error: libxml/HTMLparser.h: No such file or directory
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:11,
-o                 from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:18: error: expected specifier-qualifier-list before 'htmlDocPtr'
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:39: error: expected specifier-qualifier-list before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:44: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:104: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:105: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:106: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:107: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:108: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:10:28: error: libxml/HTMLtree.h: No such file or directory
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode parent]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: (Each undeclared identifier is reported only once
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: for each function it appears in.)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode nextSibling]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:20: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode previousSibling]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:24: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:27: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:49: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode getAttributeNamed:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: warning: implicit declaration of function 'getAttributeNamed'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: warning: return makes pointer from integer without a cast
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode tagName]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:83: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode firstChild]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:89: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:93: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:inXMLNode:inArray:allowPartial:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:95: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:95: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: 'xmlAttrPtr' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: expected ';' before 'attr'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: 'attr' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:106: error: 'child' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:132: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTags:inXMLNode:inArray:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:134: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:134: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTags:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:158: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:163: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTag:inXMLNode:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:165: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:165: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTag:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:187: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode children]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:193: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:193: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:196: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:220: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:inXMLNode:allowPartial:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:222: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:222: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: 'xmlAttrPtr' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: expected ';' before 'attr'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: 'attr' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:235: error: 'child' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:allowPartial:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:265: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildOfClass:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:270: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:allowPartial:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:278: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:289: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode initWithXMLNode:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:293: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:298: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode appendChildContentsToString:inNode:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:303: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:303: error: 'cur_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode contents]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:317: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:325: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode nodetype]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:362: warning: implicit declaration of function 'nodeType'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:362: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:365: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode allContents]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: warning: implicit declaration of function 'allNodeContents'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: warning: return makes pointer from integer without a cast
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:387: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode rawContents]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: warning: implicit declaration of function 'rawContentsOfNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: error: '_node' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: warning: return makes pointer from integer without a cast
-lSLF07#2@105"Compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#331851528#0(15193"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:10:30: error: libxml/HTMLparser.h: No such file or directoryIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:11,                 from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:18: error: expected specifier-qualifier-list before 'htmlDocPtr'In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:39: error: expected specifier-qualifier-list before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:44: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:104: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:105: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:106: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:107: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:108: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:10:28: error: libxml/HTMLtree.h: No such file or directory/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode parent]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: (Each undeclared identifier is reported only once/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:16: error: for each function it appears in.)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode nextSibling]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:20: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode previousSibling]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:24: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:27: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:49: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode getAttributeNamed:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: warning: implicit declaration of function 'getAttributeNamed'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:71: warning: return makes pointer from integer without a cast/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode tagName]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:83: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode firstChild]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:89: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:93: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:inXMLNode:inArray:allowPartial:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:95: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:95: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: 'xmlAttrPtr' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: expected ';' before 'attr'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:101: error: 'attr' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:106: error: 'child' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:132: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTags:inXMLNode:inArray:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:134: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:134: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTags:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:158: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:163: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTag:inXMLNode:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:165: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:165: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildTag:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:187: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode children]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:193: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:193: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:196: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:220: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:inXMLNode:allowPartial:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:222: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:222: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: 'xmlAttrPtr' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: expected ';' before 'attr'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:231: error: 'attr' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:235: error: 'child' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:allowPartial:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:265: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildOfClass:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:270: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:allowPartial:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:278: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:289: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode initWithXMLNode:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:293: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:298: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode appendChildContentsToString:inNode:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:303: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:303: error: 'cur_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode contents]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:317: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:325: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode nodetype]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:362: warning: implicit declaration of function 'nodeType'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:362: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:365: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode allContents]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: warning: implicit declaration of function 'allNodeContents'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:384: warning: return makes pointer from integer without a cast/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: At top level:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:387: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m: In function '-[HTMLNode rawContents]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: warning: implicit declaration of function 'rawContentsOfNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: error: '_node' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m:409: warning: return makes pointer from integer without a cast75(4@46"Libxml/HTMLparser.h: No such file or directory331851528#123#159#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@147"Libxml/HTMLparser.h: No such file or directory in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#10#0#10#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#10#0#10#0#28"*: No such file or directory0(4@53"Expected specifier-qualifier-list before 'htmlDocPtr'331851528#529#165#3(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#11#0#11#0#0"0(13@156"Expected specifier-qualifier-list before 'htmlDocPtr' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#18#0#18#0#0"0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#18#0#18#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'xmlNode'331851528#817#160#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@151"Expected specifier-qualifier-list before 'xmlNode' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#39#0#39#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#39#0#39#0#19"expected * before *0(4@29"Expected ')' before 'xmlNode'331851528#977#139#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before 'xmlNode' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#44#0#44#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#44#0#44#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1116#140#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#104#0#104#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#104#0#104#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1256#140#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#105#0#105#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#105#0#105#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1396#140#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#106#0#106#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#106#0#106#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1536#140#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#107#0#107#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#107#0#107#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1676#140#2(7@119"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#9#0#9#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#108#0#108#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#108#0#108#0#19"expected * before *0(4@44"Libxml/HTMLtree.h: No such file or directory331851528#1816#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#10#0#10#0#28"*: No such file or directory0(4@47"'_node' undeclared (first use in this function)331851528#2106#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#16#0#16#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#2703#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#20#0#20#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#3002#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#24#0#24#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#3159#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before '*' token331851528#3272#139#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#27#0#27#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#3411#139#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#49#0#49#0#19"expected * before *0(22@52"Implicit declaration of function 'getAttributeNamed'331851528#3695#164#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#71#0#71#0#36"implicit declaration of function '*'0(4@47"'_node' undeclared (first use in this function)331851528#3859#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#71#0#71#0#43"'*' undeclared (first use in this function)0(22@48"Return makes pointer from integer without a cast331851528#4016#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#71#0#71#0#0"0(4@47"'_node' undeclared (first use in this function)331851528#4310#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#83#0#83#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#4604#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#89#0#89#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#4761#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#4874#139#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#93#0#93#0#19"expected * before *0(4@49"'xmlNode' undeclared (first use in this function)331851528#5210#159#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#95#0#95#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#5369#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#95#0#95#0#43"'*' undeclared (first use in this function)0(4@52"'xmlAttrPtr' undeclared (first use in this function)331851528#5529#163#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#101#0#101#0#43"'*' undeclared (first use in this function)0(4@26"Expected ';' before 'attr'331851528#5692#137#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#101#0#101#0#19"expected * before *0(4@46"'attr' undeclared (first use in this function)331851528#5829#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#101#0#101#0#43"'*' undeclared (first use in this function)0(4@47"'child' undeclared (first use in this function)331851528#5986#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#106#0#106#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#6144#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#6257#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#132#0#132#0#19"expected * before *0(4@49"'xmlNode' undeclared (first use in this function)331851528#6556#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#134#0#134#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#6716#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#134#0#134#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#7018#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#158#0#158#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#7176#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#7289#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#163#0#163#0#19"expected * before *0(4@49"'xmlNode' undeclared (first use in this function)331851528#7579#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#165#0#165#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#7739#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#165#0#165#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#8040#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#187#0#187#0#43"'*' undeclared (first use in this function)0(4@49"'xmlNode' undeclared (first use in this function)331851528#8333#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#193#0#193#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#8493#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#193#0#193#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#8654#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#196#0#196#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#8812#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#8925#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#220#0#220#0#19"expected * before *0(4@49"'xmlNode' undeclared (first use in this function)331851528#9251#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#222#0#222#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#9411#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#222#0#222#0#43"'*' undeclared (first use in this function)0(4@52"'xmlAttrPtr' undeclared (first use in this function)331851528#9572#163#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#231#0#231#0#43"'*' undeclared (first use in this function)0(4@26"Expected ';' before 'attr'331851528#9735#137#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#231#0#231#0#19"expected * before *0(4@46"'attr' undeclared (first use in this function)331851528#9872#157#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#231#0#231#0#43"'*' undeclared (first use in this function)0(4@47"'child' undeclared (first use in this function)331851528#10029#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#235#0#235#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#10363#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#265#0#265#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#10665#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#270#0#270#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#11002#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#278#0#278#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#11160#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#11273#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#289#0#289#0#19"expected * before *0(4@47"'_node' undeclared (first use in this function)331851528#11556#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#293#0#293#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#11714#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before 'xmlNode'331851528#11827#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#298#0#298#0#19"expected * before *0(4@49"'xmlNode' undeclared (first use in this function)331851528#12129#160#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#303#0#303#0#43"'*' undeclared (first use in this function)0(4@50"'cur_node' undeclared (first use in this function)331851528#12289#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#303#0#303#0#43"'*' undeclared (first use in this function)0(4@47"'_node' undeclared (first use in this function)331851528#12585#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#317#0#317#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#12743#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before '*' token331851528#12856#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#325#0#325#0#19"expected * before *0(22@43"Implicit declaration of function 'nodeType'331851528#13131#156#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#362#0#362#0#36"implicit declaration of function '*'0(4@47"'_node' undeclared (first use in this function)331851528#13287#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#362#0#362#0#43"'*' undeclared (first use in this function)0(23@13"At top level:331851528#13445#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before '*' token331851528#13558#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#365#0#365#0#19"expected * before *0(22@50"Implicit declaration of function 'allNodeContents'331851528#13836#163#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#384#0#384#0#36"implicit declaration of function '*'0(4@47"'_node' undeclared (first use in this function)331851528#13999#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#384#0#384#0#43"'*' undeclared (first use in this function)0(22@48"Return makes pointer from integer without a cast331851528#14157#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#384#0#384#0#0"0(23@13"At top level:331851528#14318#113#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#0#0#0#0#0"0(4@29"Expected ')' before '*' token331851528#14431#140#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#387#0#387#0#19"expected * before *0(22@52"Implicit declaration of function 'rawContentsOfNode'331851528#14709#165#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#409#0#409#0#36"implicit declaration of function '*'0(4@47"'_node' undeclared (first use in this function)331851528#14874#158#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#409#0#409#0#43"'*' undeclared (first use in this function)0(22@48"Return makes pointer from integer without a cast331851528#15032#161#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m331850278#409#0#409#0#0"0(0#0#97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m8632806272#2266"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/x86_64 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -include /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.m -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o1#
-
-CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/../../../../Development/workspaces/Github/Objective-C-HMTL-Parser/HTMLParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s331851528.099984
-e331851528.185420
 r0
-xCompileC
-xbuild/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:10:30: error: libxml/HTMLparser.h: No such file or directory
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:11,
-o                 from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:39: error: expected specifier-qualifier-list before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:44: error: expected ')' before 'xmlNode'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:104: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:105: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:106: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:107: error: expected ')' before '*' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:108: error: expected ')' before '*' token
-oIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:18: error: expected specifier-qualifier-list before 'htmlDocPtr'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser doc]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: (Each undeclared identifier is reported only once
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: for each function it appears in.)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:19: error: 'xmlNode' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:19: error: expected expression before ')' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser html]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:24: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser body]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:32: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser initWithString:error:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:42: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:51: error: 'HTML_PARSE_RECOVER' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:52: error: 'HTML_PARSE_NOERROR' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:53: error: 'HTML_PARSE_NOWARNING' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: warning: implicit declaration of function 'htmlReadDoc'
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: error: 'xmlChar' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: error: expected expression before ')' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser initWithData:error:]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:71: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:80: error: 'xmlChar' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:80: error: expected expression before ')' token
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:83: error: 'XML_PARSE_NOERROR' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:83: error: 'XML_PARSE_NOWARNING' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser dealloc]':
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:119: error: '_doc' undeclared (first use in this function)
-o/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:121: warning: implicit declaration of function 'xmlFreeDoc'
-lSLF07#2@107"Compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#331851528#0(6034"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:10:30: error: libxml/HTMLparser.h: No such file or directoryIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:11,                 from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:39: error: expected specifier-qualifier-list before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:44: error: expected ')' before 'xmlNode'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:104: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:105: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:106: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:107: error: expected ')' before '*' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h:108: error: expected ')' before '*' tokenIn file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:9:/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h:18: error: expected specifier-qualifier-list before 'htmlDocPtr'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser doc]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: (Each undeclared identifier is reported only once/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:16: error: for each function it appears in.)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:19: error: 'xmlNode' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:19: error: expected expression before ')' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser html]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:24: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser body]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:32: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser initWithString:error:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:42: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:51: error: 'HTML_PARSE_RECOVER' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:52: error: 'HTML_PARSE_NOERROR' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:53: error: 'HTML_PARSE_NOWARNING' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: warning: implicit declaration of function 'htmlReadDoc'/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: error: 'xmlChar' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:54: error: expected expression before ')' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser initWithData:error:]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:71: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:80: error: 'xmlChar' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:80: error: expected expression before ')' token/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:83: error: 'XML_PARSE_NOERROR' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:83: error: 'XML_PARSE_NOWARNING' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m: In function '-[HTMLParser dealloc]':/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:119: error: '_doc' undeclared (first use in this function)/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m:121: warning: implicit declaration of function 'xmlFreeDoc'28(4@46"Libxml/HTMLparser.h: No such file or directory331851528#125#161#2(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(13@149"Libxml/HTMLparser.h: No such file or directory in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#10#0#10#0#0"0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#10#0#10#0#28"*: No such file or directory0(4@50"Expected specifier-qualifier-list before 'xmlNode'331851528#537#160#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@151"Expected specifier-qualifier-list before 'xmlNode' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#39#0#39#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#39#0#39#0#19"expected * before *0(4@29"Expected ')' before 'xmlNode'331851528#697#139#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before 'xmlNode' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#44#0#44#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#44#0#44#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#836#140#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#104#0#104#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#104#0#104#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#976#140#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#105#0#105#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#105#0#105#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1116#140#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#106#0#106#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#106#0#106#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1256#140#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#107#0#107#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#107#0#107#0#19"expected * before *0(4@29"Expected ')' before '*' token331851528#1396#140#3(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#11#0#11#0#0"0(13@130"Expected ')' before '*' token in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331851528#18446744073709551615#0#0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#108#0#108#0#0"0(6@97"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLNode.h331850278#108#0#108#0#19"expected * before *0(4@53"Expected specifier-qualifier-list before 'htmlDocPtr'331851528#1661#165#2(7@121"In file included from /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#9#0#9#0#0"0(13@156"Expected specifier-qualifier-list before 'htmlDocPtr' in /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331851528#18446744073709551615#0#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#18#0#18#0#0"0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.h331850278#18#0#18#0#19"expected * before *0(4@46"'_doc' undeclared (first use in this function)331851528#1960#158#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#16#0#16#0#43"'*' undeclared (first use in this function)0(4@49"'xmlNode' undeclared (first use in this function)331851528#2424#161#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#19#0#19#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token331851528#2585#148#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#19#0#19#0#19"expected * before *0(4@46"'_doc' undeclared (first use in this function)331851528#2868#158#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#24#0#24#0#43"'*' undeclared (first use in this function)0(4@46"'_doc' undeclared (first use in this function)331851528#3161#158#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#32#0#32#0#43"'*' undeclared (first use in this function)0(4@46"'_doc' undeclared (first use in this function)331851528#3471#158#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#42#0#42#0#43"'*' undeclared (first use in this function)0(4@60"'HTML_PARSE_RECOVER' undeclared (first use in this function)331851528#3629#172#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#51#0#51#0#43"'*' undeclared (first use in this function)0(4@60"'HTML_PARSE_NOERROR' undeclared (first use in this function)331851528#3801#172#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#52#0#52#0#43"'*' undeclared (first use in this function)0(4@62"'HTML_PARSE_NOWARNING' undeclared (first use in this function)331851528#3973#174#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#53#0#53#0#43"'*' undeclared (first use in this function)0(22@46"Implicit declaration of function 'htmlReadDoc'331851528#4147#160#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#54#0#54#0#36"implicit declaration of function '*'0(4@49"'xmlChar' undeclared (first use in this function)331851528#4307#161#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#54#0#54#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token331851528#4468#148#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#54#0#54#0#19"expected * before *0(4@46"'_doc' undeclared (first use in this function)331851528#4766#158#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#71#0#71#0#43"'*' undeclared (first use in this function)0(4@49"'xmlChar' undeclared (first use in this function)331851528#4924#161#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#80#0#80#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token331851528#5085#148#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#80#0#80#0#19"expected * before *0(4@59"'XML_PARSE_NOERROR' undeclared (first use in this function)331851528#5233#171#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#83#0#83#0#43"'*' undeclared (first use in this function)0(4@61"'XML_PARSE_NOWARNING' undeclared (first use in this function)331851528#5404#173#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#83#0#83#0#43"'*' undeclared (first use in this function)0(4@46"'_doc' undeclared (first use in this function)331851528#5715#159#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#119#0#119#0#43"'*' undeclared (first use in this function)0(22@45"Implicit declaration of function 'xmlFreeDoc'331851528#5874#160#0(6@99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m331850278#121#0#121#0#36"implicit declaration of function '*'0(0#0#99"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m8629695296#2270"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/x86_64 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -include /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/HTMLParser.m -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o1#
 
 CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s331851528.098485
-e331851528.205001
-r1
-xCompileC
-xbuild/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@129"Compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m331851528#331851528#0(0"0(0#0#121"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m8634571136#2314"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/x86_64 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -include /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtilAppDelegate.m -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o0#
+r0
+
+CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/Parser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s331851528.097588
-e331851528.192663
-r1
-xCompileC
-xbuild/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m331851528#331851528#0(0"0(0#0#93"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m8634549952#2258"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/x86_64 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -include /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/main.m -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o0#
+r0
 
 CCompileXIB /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib
-s331851526.052950
-e331851526.283713
-r1
-xCompileXIB
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib331851526#331851526#0(0"0(0#0#113"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib8634315808#522"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/MainMenu.nib /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+r0
 
 CCopyStringsFile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s331851526.052205
-e331851526.089101
-r1
-xCopyStringsFile
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings331851526#331851526#0(0"0(0#0#118"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/English.lproj/InfoPlist.strings8634819328#475"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj0#
+r0
 
 CLd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil normal x86_64
 r0
 
 CProcessInfoPlistFile /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist LionCompatibilityUtil-Info.plist
-s331851526.046639
-e331851526.052132
-r1
-xProcessInfoPlistFile
-x/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist
-xLionCompatibilityUtil-Info.plist
-lSLF07#2@40"Process LionCompatibilityUtil-Info.plist331851526#331851526#0(0"0(0#0#119"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil-Info.plist8634373248#496"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    builtin-infoPlistUtility LionCompatibilityUtil-Info.plist -genpkginfo /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist0#
+r0
 
-CProcessPCH /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch.gch LionCompatibilityUtil_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s331851526.283859
-e331851528.097459
-r1
-xProcessPCH
-x/var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch.gch
-xLionCompatibilityUtil_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Precompile LionCompatibilityUtil_Prefix.pch331851526#331851528#0(0"0(0#0#119"/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil_Prefix.pch8632771168#2102"    cd /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap -iquote /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap -F/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/include -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources/x86_64 -I/Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/DerivedSources -c /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/LionCompatibilityUtil_Prefix.pch -o /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-botznocpcpeexrbyanaeiupxzdvw/LionCompatibilityUtil_Prefix.pch.gch0#
+CProcessPCH /var/folders/T8/T8ey4W9sG30rYqcGA5M3C++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LionCompatibilityUtil_Prefix-gyrgtytonstzleedxfyfknqiiajm/LionCompatibilityUtil_Prefix.pch.gch LionCompatibilityUtil_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CTouch /Users/dominikobermaier/Documents/XCode/LionCompatibilityChecker/LionCompatibilityUtil/build/Debug/LionCompatibilityUtil.app
 r0

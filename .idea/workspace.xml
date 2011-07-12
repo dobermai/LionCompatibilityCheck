@@ -2,32 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88522e07-f002-431e-ae54-fa085c70d624" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.mode1v3" afterPath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.mode1v3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/MainMenu.nib" afterPath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/MainMenu.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.dep" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.dep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/AppController.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/AppController.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/Parser.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/Parser.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state.dat" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/cdecls.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/cdecls.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/decls.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/decls.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/files.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/files.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/imports.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/imports.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/pbxindex.header" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/pbxindex.header" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/refs.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/refs.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/control" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/strings" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/strings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/subclasses.pbxbtree" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/subclasses.pbxbtree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/symbols0.pbxsymbols" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/symbols0.pbxsymbols" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppController.h" afterPath="$PROJECT_DIR$/AppController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppController.m" afterPath="$PROJECT_DIR$/AppController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/English.lproj/MainMenu.xib" afterPath="$PROJECT_DIR$/English.lproj/MainMenu.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.pbxuser" afterPath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.pbxuser" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parser.m" afterPath="$PROJECT_DIR$/Parser.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/PkgInfo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/Resources/English.lproj/MainMenu.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-all-target-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-generated-files.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-own-target-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.dep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil~.dep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIDataCompressor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIDataDecompressor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIDownloadCache.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIFormDataRequest.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIHTTPRequest.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASIInputStream.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/ASINetworkQueue.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/App.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/AppController.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/FileScanner.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/HTMLNode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/HTMLParser.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtilAppDelegate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/Parser.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataCompressor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDataDecompressor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIDownloadCache.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIFormDataRequest.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIHTTPRequest.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASIInputStream.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/ASINetworkQueue.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/FileScanner.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLNode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/HTMLParser.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state~.dat" afterPath="" />
     </list>
     <ignored path="LionCompatibilityUtil.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,7 +138,7 @@
       <file leaf-file-name="Parser.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Parser.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.38135594">
+            <state line="20" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.24861878">
               <folding />
             </state>
           </provider>
@@ -236,6 +258,13 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" SDK_NAME="macosx10.6" ARCH_ID="Standard" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE">
+      <envs />
+      <method>
+        <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" TARGET_NAME="LionCompatibilityUtil" CONFIG_NAME="Debug" SDK_NAME="macosx10.6" ARCH_ID="Universal32_64_Bit" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE">
       <envs />
       <method>
@@ -276,17 +305,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995227" sideWeight="0.67051417" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995227" sideWeight="0.67051417" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.6670644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948583" sideWeight="0.32816228" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.32816228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -418,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Parser.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.38135594">
+        <state line="20" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.24861878">
           <folding />
         </state>
       </provider>

@@ -46,7 +46,7 @@
 
     for (HTMLNode *pNode in pNodes) {
         HTMLNode *child = [pNode findChildTag:@"a"];
-        if (child != nil) {
+        if (child != nil && !([[[pNode parent] getAttributeNamed:@"class"] isEqualToString:@"notes"])) {
 
             NSString *appName = [pNode allContents];
             [app setAppName:appName];

@@ -8,6 +8,7 @@
 	IBOutlet NSTableView *tableView;
 	IBOutlet NSArrayController *controller;
 	IBOutlet NSProgressIndicator *progressBar;
+	IBOutlet NSButton *scanButton;
     NSArray *installedApplications;
 
 }

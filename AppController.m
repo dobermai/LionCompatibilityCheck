@@ -20,6 +20,8 @@
     [progressBar displayIfNeeded];
     [progressBar startAnimation:self];
     [progressBar setToolTip:@"Preparing Download of Compatibility Data"];
+	
+	[scanButton setEnabled:NO];
 
 
     [parser check];
@@ -43,6 +45,7 @@
         }
         [progressBar stopAnimation:self];
         [progressBar setHidden:YES];
+		[scanButton setEnabled:YES];
     }
 }
 
