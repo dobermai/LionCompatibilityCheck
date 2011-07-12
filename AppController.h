@@ -7,8 +7,11 @@
 	
 	IBOutlet NSTableView *tableView;
 	IBOutlet NSArrayController *controller;
+    NSArray *installedApplications;
 
 }
+
+@property(nonatomic, retain) NSArray *installedApplications;
 
 -(IBAction) scanApps:(id)sender;
 

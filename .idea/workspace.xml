@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88522e07-f002-431e-ae54-fa085c70d624" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASICacheDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDataCompressor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDataCompressor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDataDecompressor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDataDecompressor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDownloadCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIDownloadCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIFormDataRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIFormDataRequest.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIHTTPRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIHTTPRequest.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIHTTPRequestConfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIHTTPRequestDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIInputStream.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIInputStream.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASINetworkQueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASINetworkQueue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ASIProgressDelegate.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.mode1v3" afterPath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.mode1v3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/Debug/LionCompatibilityUtil.app/Contents/MacOS/LionCompatibilityUtil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil-project-headers.hmap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.dep" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.dep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.hmap" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/LionCompatibilityUtil.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/AppController.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/AppController.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil.LinkFileList" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil.LinkFileList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/LionCompatibilityUtil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/Parser.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/i386/Parser.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/App.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/AppController.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/FileScanner.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/FileScanner.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil.LinkFileList" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil.LinkFileList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtilAppDelegate.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/LionCompatibilityUtil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/Objects-normal/x86_64/Parser.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state.dat" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/Debug/LionCompatibilityUtil.build/build-state.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/pbxindex.header" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/pbxindex.header" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/control" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/strings.pbxstrings/control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/symbols0.pbxsymbols" afterPath="$PROJECT_DIR$/build/LionCompatibilityUtil.build/LionCompatibilityUtil.pbxindex/symbols0.pbxsymbols" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppController.h" afterPath="$PROJECT_DIR$/AppController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppController.m" afterPath="$PROJECT_DIR$/AppController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.pbxuser" afterPath="$PROJECT_DIR$/LionCompatibilityUtil.xcodeproj/dominikobermaier.pbxuser" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parser.h" afterPath="$PROJECT_DIR$/Parser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parser.m" afterPath="$PROJECT_DIR$/Parser.m" />
     </list>
     <ignored path="LionCompatibilityUtil.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,19 +47,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AppController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="35" column="29" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.15296367">
               <folding />
             </state>
           </provider>
@@ -106,7 +95,7 @@
       <file leaf-file-name="Parser.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="9" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,16 +104,7 @@
       <file leaf-file-name="Parser.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parser.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLParser.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTMLParser.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="163" column="82" selection-start="5373" selection-end="5373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +113,7 @@
       <file leaf-file-name="AppController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="35" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,16 +133,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AppController.m" />
         <option value="$PROJECT_DIR$/App.h" />
         <option value="$PROJECT_DIR$/App.m" />
-        <option value="$PROJECT_DIR$/AppController.h" />
         <option value="$PROJECT_DIR$/FileScanner.h" />
         <option value="$PROJECT_DIR$/FileScanner.m" />
         <option value="$PROJECT_DIR$/LionCompatibilityUtilAppDelegate.h" />
         <option value="$PROJECT_DIR$/LionCompatibilityUtilAppDelegate.m" />
         <option value="$PROJECT_DIR$/Parser.h" />
+        <option value="$PROJECT_DIR$/AppController.h" />
         <option value="$PROJECT_DIR$/Parser.m" />
+        <option value="$PROJECT_DIR$/AppController.m" />
       </list>
     </option>
   </component>
@@ -192,6 +172,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="DirectoryView.Xcode" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,8 +203,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,12 +257,13 @@
     <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67051417" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995227" sideWeight="0.6002099" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39979014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -290,7 +271,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979014" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -361,13 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileScanner.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -389,21 +362,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LionCompatibilityUtilAppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/ASIDataCompressor.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parser.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="191" column="21" selection-start="5803" selection-end="5803" vertical-scroll-proportion="1.2017937">
           <folding />
         </state>
       </provider>
@@ -415,9 +376,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppController.h">
+    <entry file="file://$PROJECT_DIR$/LionCompatibilityUtilAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parser.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="82" selection-start="5373" selection-end="5373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="29" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.15296367">
           <folding />
         </state>
       </provider>

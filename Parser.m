@@ -1,11 +1,16 @@
-
 #import "Parser.h"
 #import "HTMLNode.h"
 #import "HTMLParser.h"
 #import "App.h"
+#import "ASIHTTPRequest.h"
+#import "ASINetworkQueue.h"
 
 
 @implementation Parser
+
+
+@synthesize networkQueue;
+@synthesize apps;
 
 
 - (void)createApp:(NSString *)status withArray:(NSMutableArray *)apps forNode:(HTMLNode *)trNode {
@@ -70,9 +75,19 @@
     }
 }
 
-- (NSArray *)check {
+- (void)check {
+    if (![self networkQueue]) {
+        [self setNetworkQueue:[[[ASINetworkQueue alloc] init] autorelease]];
+    }
+    [[self networkQueue] setDelegate:self];
+    [[self networkQueue] setRequestDidFinishSelector:@selector(requestFinished:)];
+    [[self networkQueue] setRequestDidFailSelector:@selector(requestFailed:)];
+    [[self networkQueue] setQueueDidFinishSelector:@selector(queueFinished:)];
+
     NSInteger maxPage = 0;
-    NSMutableArray *apps = [[NSMutableArray alloc] init];
+    if (![self apps]) {
+        apps = [[NSMutableArray alloc] init];
+    }
 
     NSURL *url = [[NSURL alloc] initWithString:@"http://roaringapps.com/apps:table/p/1"];
     NSError *error = nil;
@@ -119,27 +134,51 @@
     for (int i = 2; i <= maxPage; i++) {
         NSString *completeUrl = [NSString stringWithFormat:@"%@%d", urlTemplate, i];
         NSURL *newUrl = [[NSURL alloc] initWithString:completeUrl];
-        NSError *urlError = nil;
-        NSString *newHtml = [[NSString alloc] initWithContentsOfURL:newUrl
-                                                           encoding:NSUTF8StringEncoding
-                                                              error:&urlError];
-        if (error) {
-            NSLog(@"Error: %@", error);
-            return;
-        }
 
-        NSError *newParserError = nil;
-        HTMLParser *newParser = [[HTMLParser alloc] initWithString:newHtml error:&newParserError];
-        HTMLNode *newBodyNode = [newParser body];
-        [self parsePage:newBodyNode withArray:apps];
+        ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:newUrl];
+        [[self networkQueue] addOperation:request];
 
         [completeUrl retain];
         [url retain];
         [parser retain];
     }
 
+    [[self networkQueue] go];
     [urlTemplate retain];
     return apps;
+}
+
+- (void)requestFinished:(ASIHTTPRequest *)request {
+    NSString *response = [request responseString];
+    NSError *newParserError = nil;
+    HTMLParser *newParser = [[HTMLParser alloc] initWithString:response error:&newParserError];
+    HTMLNode *newBodyNode = [newParser body];
+    [self parsePage:newBodyNode withArray:apps];
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request {
+    NSError *error = [request error];
+
+    NSLog(@"%∆", error);
+}
+
+- (void)queueFinished:(ASINetworkQueue *)queue
+{
+	// You could release the queue here if you wanted
+	if ([[self networkQueue] requestsCount] == 0) {
+		[self setNetworkQueue:nil];
+	}
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"RequestsFinishedNotification" object:apps];
+	NSLog(@"Queue finished");
+}
+
+
+
+
+- (void)dealloc {
+    [networkQueue release];
+    [apps release];
+    [super dealloc];
 }
 
 @end
